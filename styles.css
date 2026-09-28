@@ -1,0 +1,36 @@
+/* ============================================
+   COLOR TOKENS
+   ============================================ */
+
+:root {
+  /* Background */
+  --color-bg-base: #0a0c11;
+  --color-bg-surface: #11141c;
+  --color-bg-elevated: #171b25;
+
+  /* Border */
+  --color-border-subtle: #232838;
+  --color-border-strong: #333a4e;
+
+  /* Text */
+  --color-text-primary: #f3f5f9;
+  --color-text-secondary: #a7afc2;
+  --color-text-muted: #6f7889;
+  --color-text-inverse: #0a0c11;
+
+  /* Brand */
+  --color-brand-400: #8e81ff;
+  --color-brand-500: #6c5cf7;
+  --color-brand-600: #5343df;
+
+  /* Accent */
+  --color-accent-teal: #2fe6c6;
+  --color-state-success: #34d399;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
