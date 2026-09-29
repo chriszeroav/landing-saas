@@ -28,9 +28,18 @@
   --color-state-success: #34d399;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Inter", sans-serif;
-}
+@import "css/base/tokens.css";
+@import "css/base/reset.css";
+@import "css/base/layout.css";
+@import "css/components/badge.css";
+@import "css/components/button.css";
+@import "css/components/card.css";
+@import "css/components/logo.css";
+@import "css/sections/cta.css";
+@import "css/sections/features.css";
+@import "css/sections/footer.css";
+@import "css/sections/hero.css";
+@import "css/sections/navbar.css";
+@import "css/sections/preview.css";
+@import "css/sections/pricing.css";
+@import "css/sections/social-proof.css";
