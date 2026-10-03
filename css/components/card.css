@@ -1,1 +1,18 @@
 /* Card component styles */
+
+.card {
+  background-color: var(--color-bg-surface);
+  border: 1px solid var(--color-border-subtle);
+  border-radius: 16px;
+  padding: 28px;
+  transition: border-color 0.3s ease;
+}
+
+.card--highlighted {
+  background-color: var(--color-bg-elevated);
+  border: 1.5px solid var(--color-brand-500);
+}
+
+.card:not(.card--highlighted):hover {
+  border-color: var(--color-border-strong);
+}
