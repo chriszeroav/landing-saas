@@ -1,1 +1,24 @@
 /* Logo component styles */
+
+.logo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.logo__mark {
+  background-image: url("../../assets/logo.svg");
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+}
+
+.logo__text {
+  color: var(--color-text-primary);
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: -0.1%;
+}
